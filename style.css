@@ -12,6 +12,15 @@
           width: 200px;
           height: 100px;
       }
+      
+      #title{
+        color: white;
+        font-size: 46px;
+      }
+
+      #subtitle{
+        color: white;
+      }
 
        #footer {
           width: 100%;
@@ -46,18 +55,18 @@
         left: 110px;
       }
 
-
-
       body {
         background-image: url('background.jpg');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position-y: -18%;
       }
+
       #app {
         width: 60%;
         margin: 50px auto;
-        background-color: rgba(256, 256, 256, 0.5)
       }
     
-     
       #input-parent {
         width: 160px;
         margin: 5% auto 50px;
